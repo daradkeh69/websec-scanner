@@ -1,26 +1,26 @@
-# Website Security Scanner
+# 🛡️ Website Security Scanner
 
-A comprehensive Python-based web security scanner for penetration testers, bug bounty hunters, and sysadmins.  
-It performs port scanning, security header analysis, technology fingerprinting, common file exposure checks, basic vulnerability fuzzing, SSL/TLS checks, cookie security analysis, and generates a detailed HTML report for each target.
-
----
-
-## Features
-
-- **Domain-based output folders** for organized results
-- **Port scanning** (Nmap or socket fallback)
-- **Security header analysis**
-- **Technology & CMS fingerprinting**
-- **Common file exposure checks** (`robots.txt`, `.env`, `.git/config`, etc.)
-- **Basic vulnerability fuzzing** (XSS, SQLi, LFI on forms and URL params)
-- **SSL/TLS certificate and cipher checks**
-- **Cookie security flag analysis**
-- **CVE lookup** for detected technologies (via NVD API)
-- **Detailed HTML reporting**
+A powerful, all-in-one **Web Security Scanner** for penetration testers, bug bounty hunters, and sysadmins.  
+Easily scan websites for open ports, security headers, exposed files, vulnerabilities, SSL issues, and more — all with a single Python script and beautiful HTML reports.
 
 ---
 
-## Requirements
+## 🚀 Features
+
+- 📁 **Organized Output:** Domain-based folders for every scan
+- ⚡ **Port Scanning:** Fast Nmap integration (or fallback to sockets)
+- 🕵️ **Security Header Analysis:** Checks for all critical HTTP headers
+- 🏷️ **Technology & CMS Detection:** Fingerprints backend tech and CMS
+- 🔍 **Common File Exposure:** Finds `.env`, `robots.txt`, `.git/config`, etc.
+- 🧪 **Vulnerability Fuzzing:** XSS, SQLi, LFI fuzzing on forms & URL params
+- 🔒 **SSL/TLS Checks:** Certificate, expiry, and weak cipher detection
+- 🍪 **Cookie Security:** Checks Secure, HttpOnly, SameSite flags
+- 🐞 **CVE Lookup:** Finds known vulnerabilities for detected tech
+- 📊 **HTML Reporting:** Clean, detailed, and shareable reports
+
+---
+
+## 📦 Requirements
 
 - Python 3.6+
 - [nmap](https://nmap.org/) (optional, for advanced port scanning)
@@ -38,47 +38,41 @@ requests
 
 ---
 
-## Usage
+## 🛠️ Usage
 
 ```bash
 python3 website_security_scanner.py --target https://example.com
 ```
 
-You will be prompted whether to scan all ports with nmap (`-p-`).  
-Reports and scan results are saved in `Result/<domain>/`.
+You’ll be prompted if you want to scan all ports with nmap (`-p-`).  
+Results and reports are saved in `Results/<domain>/`.
 
 ---
 
-## Output
+## 📂 Output
 
-- **HTML Report:** `Result/<domain>/security_report_<domain>.html`
-- **Port Scan Results:** `Result/<domain>/port_scan.txt`
-- **Homepage HTML:** `Result/<domain>/homepage.html`
-
----
-
-## Notes
-
-- For best results, run as a user with network scan permissions.
-- Nmap is optional but recommended for full port scanning.
-- The scanner is for **educational and authorized testing only**.  
-  **Do not scan targets without permission.**
+- **HTML Report:** `Results/<domain>/security_report_<domain>.html`
+- **Port Scan Results:** `Results/<domain>/port_scan.txt`
+- **Homepage HTML:** `Results/<domain>/homepage.html`
 
 ---
 
-## Disclaimer
+## ⚠️ Disclaimer & License
 
-This tool is provided for educational and authorized security testing purposes only.  
-The author is not responsible for misuse or damage caused by this tool.
+> **This tool is for educational and authorized security testing only.**
+>
+> - **Do NOT scan targets without explicit permission.**
+> - **You may NOT copy, redistribute, or claim credit for this code.**
+> - All rights reserved © Adam Daradkeh 2024-2025.
+> - Commercial use, code reuse, or derivative works are strictly prohibited.
+>
+> _If you find this useful, please star the repo and give credit!_
 
 ---
 
-## License
+## 👤 Author
 
-MIT License
+**Adam Daradkeh**  
+[GitHub](https://github.com/daradkeh69) • [LinkedIn](https://www.linkedin.com/in/adam-daradkeh-814980326/)
 
 ---
-
-## Author
-
-Adam Daradkeh
