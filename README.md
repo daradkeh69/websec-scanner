@@ -1,6 +1,6 @@
 # 🛡️ Website Security Scanner
 
-[![Connect with me on LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/adam-daradkeh-814980326/)
+[![Connect with me on LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](www.linkedin.com/in/daradkehh)
 
 A powerful, all-in-one **Web Security Scanner** for penetration testers, bug bounty hunters, and sysadmins.  
 Easily scan websites for open ports, security headers, exposed files, vulnerabilities, SSL issues, and more — all with a single Python script and beautiful HTML reports.
