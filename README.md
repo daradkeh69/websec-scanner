@@ -26,7 +26,8 @@ Easily scan websites for open ports, security headers, exposed files, vulnerabil
 - [nmap](https://nmap.org/) (optional, for advanced port scanning)
 - Python packages: `requests`
 
-Install dependencies:
+### Install dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -35,6 +36,13 @@ pip install -r requirements.txt
 ```
 requests
 ```
+> **System dependencies:**  
+> - Python 3.6 or higher  
+> - nmap (for advanced port scanning, optional but recommended)  
+>   - Ubuntu/Debian: `sudo apt install nmap`  
+>   - MacOS: `brew install nmap`  
+> - OpenSSL (for SSL/TLS checks, usually pre-installed)  
+> - pip (for installing Python packages)  
 
 ---
 
@@ -74,5 +82,3 @@ Results and reports are saved in `Results/<domain>/`.
 
 **Adam Daradkeh**  
 [GitHub](https://github.com/daradkeh69) • [LinkedIn](https://www.linkedin.com/in/adam-daradkeh-814980326/)
-
----
