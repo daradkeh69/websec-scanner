@@ -1,0 +1,10 @@
+# Python dependencies
+requests
+
+# System dependencies (must be installed separately, not via pip):
+# - Python 3.6 or higher
+# - nmap (for advanced port scanning, optional but recommended)
+#   On Ubuntu/Debian: sudo apt install nmap
+#   On MacOS: brew install nmap
+# - OpenSSL (for SSL/TLS checks, usually pre-installed)
+# - pip (for installing Python packages)
