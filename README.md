@@ -45,15 +45,15 @@ python3 website_security_scanner.py --target https://example.com
 ```
 
 You will be prompted whether to scan all ports with nmap (`-p-`).  
-Reports and scan results are saved in `clients/<domain>/`.
+Reports and scan results are saved in `Result/<domain>/`.
 
 ---
 
 ## Output
 
-- **HTML Report:** `clients/<domain>/security_report_<domain>.html`
-- **Port Scan Results:** `clients/<domain>/port_scan.txt`
-- **Homepage HTML:** `clients/<domain>/homepage.html`
+- **HTML Report:** `Result/<domain>/security_report_<domain>.html`
+- **Port Scan Results:** `Result/<domain>/port_scan.txt`
+- **Homepage HTML:** `Result/<domain>/homepage.html`
 
 ---
 
