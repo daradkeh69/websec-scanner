@@ -90,5 +90,5 @@ Results and reports are saved in `Results/<domain>/`.
 
 ## 👤 Author
 
-**Adam Daradkeh**  
+**Daradkeh**  
 [GitHub](https://github.com/daradkeh69) •
