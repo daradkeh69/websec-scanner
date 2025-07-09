@@ -5,7 +5,7 @@
 A powerful, all-in-one **Web Security Scanner** for penetration testers, bug bounty hunters, and sysadmins.  
 Easily scan websites for open ports, security headers, exposed files, vulnerabilities, SSL issues, and more — all with a single Python script and beautiful HTML reports.
 
-![Screenshot of the Tool](screenshot.png)
+![Screenshot of the Tool](Screenshot.png)
 
 ---
 
