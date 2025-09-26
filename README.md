@@ -83,7 +83,6 @@ Results and reports are saved in `Results/<domain>/`.
 >
 > - **Do NOT scan targets without explicit permission.**
 > - **You may NOT copy, redistribute, or claim credit for this code.**
-> - All rights reserved © Adam Daradkeh 2024-2025.
 > - Commercial use, code reuse, or derivative works are strictly prohibited.
 >
 > _If you find this useful, please star the repo and give credit!_
